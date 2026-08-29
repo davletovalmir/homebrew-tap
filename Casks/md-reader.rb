@@ -28,7 +28,7 @@ cask "md-reader" do
 
   # The release pipeline builds arm64 only (scripts/release.sh passes --arm64).
   depends_on arch: :arm64
-  depends_on macos: ">= :monterey"
+  depends_on macos: ">= :ventura"
 
   app "MD Reader.app"
 
