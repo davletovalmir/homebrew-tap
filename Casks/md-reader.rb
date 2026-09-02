@@ -19,8 +19,8 @@
 # Homebrew downloads anonymously, which works fine against a public repo, so
 # `brew install` works as soon as a release is published there.
 cask "md-reader" do
-  version "0.2.0"
-  sha256 "3b91f25b3f6cc0d60f2dfc7c46c98e39a86943558ae7b4c2cb389cb54fb5dfd8"
+  version "0.2.1"
+  sha256 "fa5bb77587ec1a093ecd2859817bba7a6cd41bd725d3f3024d7463aebb3c780a"
 
   url "https://github.com/davletovalmir/md-reader-releases/releases/download/v#{version}/md-reader-#{version}-arm64.dmg"
   name "MD Reader"
