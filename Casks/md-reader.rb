@@ -22,8 +22,7 @@ cask "md-reader" do
   version "0.2.0"
   sha256 "3b91f25b3f6cc0d60f2dfc7c46c98e39a86943558ae7b4c2cb389cb54fb5dfd8"
 
-  url "https://github.com/davletovalmir/md-reader-releases/releases/download/v#{version}/md-reader-#{version}-arm64.dmg",
-      verified: "github.com/davletovalmir/md-reader-releases/"
+  url "https://github.com/davletovalmir/md-reader-releases/releases/download/v#{version}/md-reader-#{version}-arm64.dmg"
   name "MD Reader"
   desc "Native macOS markdown reader and editor"
   homepage "https://github.com/davletovalmir/md-reader-releases"
